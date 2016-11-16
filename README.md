@@ -26,9 +26,9 @@ Add a new table to that database ( [pgAdmin tutorial on how to do both of these]
 
 ```
 CREATE TABLE airplanes (
-  planeid SERIAL PRIMARY KEY NOT NULL, -- The primary key
-  planetype varchar(40) NOT NULL, -- The IP of the host
-  passengercount integer NOT NULL -- The name of the host
+  planeid SERIAL PRIMARY KEY NOT NULL,
+  planetype varchar(40) NOT NULL,
+  passengercount integer NOT NULL
 );
 ```
 
